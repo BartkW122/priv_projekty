@@ -1,0 +1,56 @@
+
+.conteiner2 .tab{
+        border: 1px solid black;
+}
+th,td{
+    border: 1px solid black;
+}
+.conteiner{
+    width: 400px;
+    height: 350px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 5px aqua;
+}
+.conteiner label{
+       font-size: 2.5rem;
+       
+}
+.input_name{
+    width: 200px;
+    height: 40px;
+   
+}
+.input_name:hover{
+    box-shadow: 5px 5px 5px aqua;
+}
+.input_check::before{
+    width: 200px;
+    height: 60px;
+    background-color: aqua;
+}
+.input_date{
+    width: 200px;
+    height: 40px;
+}
+.input_date:hover{
+    box-shadow: 5px 5px 5px aqua;
+}
+.input_pior{
+    width: 200px;
+    height: 40px;
+}
+button{
+    width: 200px;
+    height: 40px;
+    background-color: rgb(189, 243, 28);
+}
+button:hover{
+    width: 400px;
+    box-shadow: 5px 5px 5px aqua;
+}
+button:focus{
+    background-color: blueviolet;
+}
